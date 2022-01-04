@@ -24,6 +24,12 @@ function Footer() {
       </div>
 
       <div className="text-stone-800 text-md">
+        <a className="block" href="/datenschutz">
+          Datenschutzerklärung
+        </a>
+        <a className="block" href="/impressum">
+          Impressum
+        </a>
         <p>&copy; {new Date().getFullYear()} Augsburger Stadtwichtel</p>
       </div>
     </div>
