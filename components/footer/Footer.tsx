@@ -3,7 +3,7 @@ import Logo from "../logo/Logo";
 
 function Footer() {
   return (
-    <div className="flex items-end justify-between m-8">
+    <div className="flex flex-col m-8 sm:flex-row sm:items-end sm:justify-between">
       <div>
         <div className="h-full w-52">
           <Logo />
