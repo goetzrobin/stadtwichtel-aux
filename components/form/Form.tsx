@@ -530,21 +530,21 @@ function Form() {
                   </div>
                   <div className="flex col-span-6">
                     <input
-                      className="block mt-2 mr-4"
+                      className="block w-1/12 mt-2 mr-2 sm:w-auto"
                       type="checkbox"
                       name="data"
                       onChange={handleChange}
                       onBlur={handleBlur}
                       value={values.data}
                     />
-                    <span className="text-sm text-stone-800">
+                    <div className="w-11/12 text-sm sm:w-full text-stone-800">
                       Hiermit erkläre ich mich einverstanden, dass meine in das
                       Kontaktformular eingegebenen Daten elektronisch
                       gespeichert und zum Zweck der Kontaktaufnahme verarbeitet
                       und genutzt werden. Mir ist bekannt, dass ich meine
                       Einwilligung jederzeit widerrufen kann.
                       <FormError name="data" />
-                    </span>
+                    </div>
                   </div>
                 </FormContainer>
               </FormSection>
