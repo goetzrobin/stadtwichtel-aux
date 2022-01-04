@@ -111,11 +111,23 @@ function Form() {
             return errors;
           }}
           onSubmit={(values, { setSubmitting }) => {
-            setTimeout(() => {
-              alert(JSON.stringify(values, null, 2));
-              setSubmitting(false);
-              setformSubmitted(true);
-            }, 400);
+            fetch("https://formspree.io/f/moqrvkgd", {
+              method: "POST",
+              body: JSON.stringify(values, null, 2),
+              headers: {
+                Accept: "application/json",
+              },
+            })
+              .then((response) => {
+                setSubmitting(false);
+                setformSubmitted(true);
+              })
+              .catch((error) => {
+                setSubmitting(false);
+                setformSubmitted(true);
+                alert(error);
+                console.error(error);
+              });
           }}
         >
           {({
