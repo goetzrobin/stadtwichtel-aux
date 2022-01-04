@@ -547,14 +547,17 @@ function Form() {
                       onBlur={handleBlur}
                       value={values.data}
                     />
-                    <div className="w-11/12 text-sm sm:w-full text-stone-800">
+                    <label
+                      htmlFor="data"
+                      className="w-11/12 text-sm sm:w-full text-stone-800"
+                    >
                       Hiermit erkläre ich mich einverstanden, dass meine in das
                       Kontaktformular eingegebenen Daten elektronisch
                       gespeichert und zum Zweck der Kontaktaufnahme verarbeitet
                       und genutzt werden. Mir ist bekannt, dass ich meine
                       Einwilligung jederzeit widerrufen kann.
                       <FormError name="data" />
-                    </div>
+                    </label>
                   </div>
                 </FormContainer>
               </FormSection>

@@ -14,6 +14,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
+        <html lang="de" />
         <title>Augsburger Stadtwichtel</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="/rainbow.png" />

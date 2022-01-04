@@ -7,6 +7,7 @@ function UpButton() {
       className="fixed p-2 rounded-full bottom-4 left-4 opacity-60 hover:opacity-100 bg-accent-800"
       onClick={animateScroll.scrollToTop}
     >
+      <span className="sr-only">Zurück Nach Oben</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="w-6 h-6"

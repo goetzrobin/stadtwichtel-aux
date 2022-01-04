@@ -14,19 +14,21 @@ function Header() {
       <Logo className="mx-auto my-4 sm:mx-0 w-44" />
       <ul className="flex flex-wrap">
         {Object.values(HeaderLinks).map((link, index) => (
-          <ScrollLink
+          <li
             key={index}
-            activeClass="active"
-            to={link.path}
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
+            className="px-3 py-2 mx-3 text-sm font-medium rounded-md cursor-pointer text-accent-600 hover:bg-bg-400"
           >
-            <li className="px-3 py-2 mx-3 text-sm font-medium rounded-md cursor-pointer text-accent-400 hover:bg-bg-400">
+            <ScrollLink
+              activeClass="active"
+              to={link.path}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               {link.label}
-            </li>
-          </ScrollLink>
+            </ScrollLink>
+          </li>
         ))}
       </ul>
     </div>
