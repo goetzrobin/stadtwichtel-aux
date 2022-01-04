@@ -39,9 +39,19 @@ function Form() {
   return (
     <div className="bg-accent">
       <div className="px-4 py-24 mx-auto sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
-        <h2 className="mb-12 text-3xl font-extrabold tracking-tight text-astra-500 font-accent sm:text-4xl">
+        <h2 className="mb-8 text-3xl font-extrabold tracking-tight text-astra-500 font-accent sm:text-4xl">
           Anmeldung
         </h2>
+        <p className="mt-4 mb-8 text-bg-200">
+          Eine Liste der aktuellen Beitragssätze finden sie{" "}
+          <a
+            className="font-semibold hover:underline text-astra-500"
+            href="/kostenbeitragssaetze.pdf"
+            target="_blank"
+          >
+            hier.
+          </a>
+        </p>
 
         <Formik
           initialValues={initalValues}
