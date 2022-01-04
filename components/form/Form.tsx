@@ -296,7 +296,7 @@ function Form() {
                   <div className="col-span-6">
                     <FormLabel
                       for="duringWeek"
-                      label="Montag – Donnerstag (7:00 – 15:00 Uhr)"
+                      label="Montag – Donnerstag (07:00 – 15:00 Uhr)"
                     >
                       <input
                         type="text"
