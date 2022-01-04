@@ -46,7 +46,7 @@ function Info() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    @standtwichtel_aux
+                    @stadtwichtel_aux
                   </a>
                 </p>
               </dd>
