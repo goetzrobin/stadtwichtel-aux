@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Logo from "../logo/Logo";
 
 function Footer() {
@@ -11,7 +12,7 @@ function Footer() {
         <div className="mx-2 mt-2 mb-6 text-sm">
           <p>Volkhartstraße 2</p>
           <p>86152 Augsburg </p>
-          <p>015782993190 / 01792687589</p>
+          <p>01779166776</p>
           <p>
             <a
               className="hover:underline"
@@ -24,12 +25,12 @@ function Footer() {
       </div>
 
       <div className="text-stone-800 text-md">
-        <a className="block" href="/datenschutz">
+        <Link className="block" to="/datenschutz">
           Datenschutzerklärung
-        </a>
-        <a className="block" href="/impressum">
+        </Link>
+        <Link className="block" to="/impressum">
           Impressum
-        </a>
+        </Link>
         <p>&copy; {new Date().getFullYear()} Augsburger Stadtwichtel</p>
       </div>
     </div>

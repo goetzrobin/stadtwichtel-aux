@@ -43,7 +43,7 @@ function Form() {
           Anmeldung
         </h2>
         <p className="mt-4 mb-8 text-bg-200">
-          Eine Liste der aktuellen Beitragssätze finden sie{" "}
+          Eine Liste der aktuellen Beitragssätze finden Sie{" "}
           <a
             className="font-semibold hover:underline text-astra-500"
             href="/kostenbeitragssaetze.pdf"
@@ -154,8 +154,8 @@ function Form() {
               }}
             >
               <FormSection
-                headline="Über Deinen Wichtel"
-                description="Diese Informationen Helfen uns Ihr Kind bestens zu betreuen."
+                headline="Über Ihren Wichtel"
+                description="Diese Informationen helfen uns Ihr Kind bestens zu betreuen."
               >
                 <FormContainer>
                   <div className="col-span-6 sm:col-span-3">
@@ -297,7 +297,7 @@ function Form() {
 
               <FormSection
                 headline="Gewünschte Betreuung"
-                description="Wie und wann können wir Ihnen bei der Betreuung Ihres Kindes helfen."
+                description="Wie und wann können wir Ihnen bei der Betreuung Ihres Kindes helfen?"
               >
                 <FormContainer>
                   <h4 className="col-span-6 -mb-2 font-semibold">
@@ -519,7 +519,7 @@ function Form() {
 
               <FormSection
                 headline="Fast Geschafft"
-                description="Gibt es noch was wir wissen sollten? Und dann fehlt nur noch der Datenschutz und Ihre Anmeldung ist fertig! "
+                description="Gibt es noch etwas, das wir wissen sollten? Jetzt fehlt nur noch der Datenschutz und Ihre Anmeldung ist fertig! "
               >
                 <FormContainer>
                   <div className="col-span-6">

@@ -177,7 +177,7 @@ const Datenschutz: NextPage = () => {
           86152 Augsburg
         </p>
         <p>
-          Telefon: 015782993190 / 01792687589
+          Telefon: 01779166776
           <br />
           E-Mail: augsburger.stadtwichtel@gmail.com
         </p>

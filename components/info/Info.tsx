@@ -37,7 +37,7 @@ function Info() {
                     augsburger.stadtwichtel@gmail.com
                   </a>
                 </p>
-                <p>Telefon: 015782993190 / 01792687589</p>
+                <p>Telefon: 01779166776</p>
                 <p>
                   Instagram:
                   <a

@@ -66,7 +66,7 @@ const Impressum: NextPage = () => {
 
         <h2>Kontakt</h2>
         <p className="pb-4">
-          Telefon: 015782993190 / 01792687589
+          Telefon: 01779166776
           <br />
           E-Mail: augsburger.stadtwichtel@gmail.com
         </p>
